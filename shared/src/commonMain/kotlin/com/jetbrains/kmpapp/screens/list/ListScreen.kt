@@ -105,5 +105,6 @@ private fun ObjectFrame(
         Text(obj.title, style = MaterialTheme.typography.subtitle1.copy(fontWeight = FontWeight.Bold))
         Text(obj.artistDisplayName, style = MaterialTheme.typography.body2)
         Text(obj.objectDate, style = MaterialTheme.typography.caption)
+        Text("HI")
     }
 }
