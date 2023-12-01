@@ -21,7 +21,7 @@ kotlin {
 
 compose.desktop {
     application {
-        mainClass = "example.kmp-app-template.MainKt"
+        mainClass = "com.jetbrains.kmp.MainKt"
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
